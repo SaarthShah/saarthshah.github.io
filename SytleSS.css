@@ -529,7 +529,13 @@ border-bottom: 2px solid white;
     display: flex;
     
   }
-
+  @media(min-width:1920px)
+  {
+    .slider ul{
+      margin-left: 0px;
+      margin: 0 auto;
+    }
+  }
   @media(max-width:1200px)
   {
     
