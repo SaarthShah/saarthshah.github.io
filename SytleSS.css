@@ -454,6 +454,7 @@ background: url('images/download2.svg');
 .pimg img{
   width:50%;
   margin: 0 auto;
+  height:auto;
 }
 #contact{
   margin-top:75px;
@@ -521,6 +522,7 @@ border-bottom: 2px solid white;
     margin: 0 auto;
     width: 10%;
     cursor: pointer;
+    height:auto;
   }
   .imgf{
 
