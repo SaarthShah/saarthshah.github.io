@@ -454,7 +454,7 @@ background: url('images/download2.svg');
 .pimg img{
   width:50%;
   margin: 0 auto;
-  height:auto;
+  height:100%;
 }
 #contact{
   margin-top:75px;
@@ -521,8 +521,8 @@ border-bottom: 2px solid white;
     
     margin: 0 auto;
     width: 10%;
+    height:100%;
     cursor: pointer;
-    height:auto;
   }
   .imgf{
 
@@ -646,6 +646,7 @@ border-bottom: 2px solid white;
   
 .pimg img{
   width:60%;
+  height:100%;
   margin: 0 auto;
 }
 
@@ -722,10 +723,12 @@ button{
 {
   #afooter img{
     width: 40%;
+    height:100%;
   }
   
 .pimg img{
   width:70%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -786,6 +789,7 @@ button{
 }
 .pimg img{
   width:90%;
+  height: 100%;
   margin: 0 auto;
 }
 .a,.b,.c{
