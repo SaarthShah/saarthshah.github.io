@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width. initial-scale=1">
+<title>Project Recoil 2.0</title>
+<link rel="stylesheet" href="prstyle.css">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+    </head>
+    <body>
+        <div class="effect">
+    <h1>COMING SOON</h1></div>
+    <script>
+        
+        var scroll = new SmoothScroll('a[href*="#"]');
+        speed:1000;
+        speedAsDuration:true;
+        const burger =document.querySelector('.ham-burger');
+        const nav = document.querySelector('.navb');
+        const links= document.querySelector('.nav-links');
+        burger.addEventListener('click',()=>
+        {
+            nav.classList.toggle('nav-active');
+        });
+    </script>
+    <script type="text/javascript">
+    const text=baffle(".effect h1");
+    text.set({
+        characters: '█░▒ /░>/░ ▓▒░░▓ ███ >██>> ░░░░ ░█▒ >/>/ <░█▒',
+    speed: 120
+    })
+    text.start();
+    text.reveal(4000);
+    </script>
+    </body>
+</html>
