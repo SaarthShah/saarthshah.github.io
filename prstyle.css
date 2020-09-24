@@ -5,6 +5,19 @@
   padding: 0;
   
 }
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.imagep{
+    height: 40vh;
+    display: flex
+}
+.downbut img{
+    
+    margin: 0 auto;
+    cursor: pointer;
+}
 @font-face{
     font-family: 'Lemon/Milk';
     src: url(font/LemonMilk.otf);
@@ -14,10 +27,134 @@
 body{
     background-color: black;
 }
+
 h1{
     font-family: 'Lemon/Milk';
-    transform: translateY(150%);
     text-align: center;
-    font-size:120px;
+    font-size:10vh;
     color: white;
 }
+
+h3{
+    font-family: 'Lemon/Milk';
+    text-align: center;
+    font-size:5vh;
+    color: white;
+}
+.intro{
+    height:100vh;
+}
+.intro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.pc
+{
+  margin-top: 50px;
+}
+button{
+  cursor: pointer;
+  font-family: 'Lemon/Milk';
+  src: url(font/LemonMilk.otf);
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  padding:1.3rem 3rem;
+  border: 1px solid #999;
+  background: url(images/button.png);
+  background-size: 130%;
+  background-position: 500%;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  transition-property: background-position,border,color;
+  position: relative;
+  z-index: 1;
+  color: #999;
+
+}
+.pc {
+    margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover
+{
+  border: 1px solid #ffaa52;
+  color: white;
+  background-position: 50%;
+}
+button:before
+{
+content: "";
+position: absolute;
+background-color:  #141414;
+width: 0.2rem;
+height: 0.2rem;
+top: -1px;
+left: -1px;
+transition: background-color 0.15s ease-in-out;
+}
+button:after
+{
+content: "";
+position: absolute;
+background-color:  #141414;
+width: 0.4rem;
+height: 0.4rem;
+bottom: -1px;
+right: -1px;
+transition: background-color 0.15s ease-in-out;
+}
+.borders{
+  position: relative;
+  width:fit-content;
+  height: fit-content;
+}
+
+.borders:before{
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.9rem);
+  height:50%;
+  left: -0.5rem;
+  top: -0.5rem;
+  border: 1px solid white;
+  border-bottom: 0px;
+  opacity: 0.3;
+}
+.borders:after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.9rem);
+  height:50%;
+  left: -0.5rem;
+  bottom: -0.5rem;
+  border: 1px solid white;
+  border-top: 0px;
+  opacity: 0.3;
+  z-index: 0;
+}
+.imagey{
+    
+    width: 300px;
+    margin-bottom: 100px;
+    display: flex
+}
+.downbut{
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:450px)
+  {
+      h1{
+          font-size: 6vh;
+      }
+      h3{
+          font-size: 3vh;
+      }
+      .imagey{
+          width: 150px;
+      }
+  }
